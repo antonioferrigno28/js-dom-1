@@ -10,7 +10,8 @@ button.addEventListener("click", function () {
     image.src = "./img/white_lamp.png";
   }
 
-  if (button.textContent.includes("Accendi")) {
+  if (button.textContent === "Accendi") {
+    //OPPURE if (button.textContent.includes("Accendi")) {
     button.textContent = "Spegni";
   } else {
     button.textContent = "Accendi";
